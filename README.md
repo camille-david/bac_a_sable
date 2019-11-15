@@ -1,4 +1,4 @@
-# jPlatformSocle
+# jPlatformSocle pour la version 10.0.4
 
 <p>
   <a href="https://travis-ci.org/organizations/departement-loire-atlantique">
