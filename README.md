@@ -1,4 +1,4 @@
-# jPlatformSocle pour la version 10.0.4
+# jPlatformSocle pour la version 10.0.6
 
 <p>
   <a href="https://travis-ci.org/organizations/departement-loire-atlantique">
@@ -9,8 +9,6 @@
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=bugs" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=code_smells" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=coverage" />
-    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=duplicated_lines_density" />
-    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=sqale_rating" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=alert_status" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=reliability_rating" />
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformSocle&metric=security_rating" />
@@ -35,6 +33,7 @@ Socle des contenus éditorial :
 -	Alerte (AlertCG)
 -	Résultat de recherche (ResultatDeRecherche)
 -	Chapitre de vidéo YouTube (Chapitre)
+-	vidéo YouTube
 
 Un nouveau type de contenu "**VideoChapitree**" a été créée pour faciliter la saisie et fonctionner avec l'insertion unifiée.
 
@@ -70,11 +69,8 @@ Pour le rendu graphique en mode édition, la css du design system a été charg�
 Choix des boutons et fonctionalités : désactivation de H1 seulement.
 
 
-**TODO** : revoir le style de l'encadré pour suivre les recon (div + classe css) >> Script si on change le code pour les encadrés (simple DIV)
+Revoir le style de l'encadré pour suivre les recon (div + classe css) >> Script si on change le code pour les encadrés (simple DIV)
 
-+ Style utiles ?
-+ Reprise des styles ?
-+ Mieux comprendre comment faire des nouveaux styles
    
 Désormais les liens vers les documents internes sont des jalios:link
 => migration des URLs possible (Question SEO ?) 
